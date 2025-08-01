@@ -6,7 +6,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     env:
-      venv: venv
+      VENV: venv
 
     steps:
       - name: Checkout code
