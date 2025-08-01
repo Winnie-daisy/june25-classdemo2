@@ -1,6 +1,6 @@
 name: Print My Name
 
-on: [pull_request, push]
+on: [push]
 
 jobs:
   print-name:
